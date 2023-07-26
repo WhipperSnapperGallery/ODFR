@@ -1,0 +1,43 @@
+
+a {
+    text-decoration: none;
+    color: #1c7075;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #72D100;
+
+}
+
+
+.project {
+
+   font-family: monospace, 'Courier New', Courier;
+   font-weight: lighter;
+   font-size: 1em;
+   padding-bottom: 0.5em;
+   margin-right: 0.5em;
+   
+   
+    
+}
+
+
+.artist {
+
+    font-family: 'helvetica' 'arial' sans-serif;
+    font-weight: lighter;
+    font-size: 1.4em;
+   
+
+}
+
+.essay {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 0.9em;
+    
+}
+
