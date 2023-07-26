@@ -25,7 +25,7 @@
 
 .cxn-request:hover {
   cursor: pointer;
-  background-color: #6ebcef;
+  background-color: #44abf0;
   color: white;
   transition: background-color 0.2s ease-in-out;
 }

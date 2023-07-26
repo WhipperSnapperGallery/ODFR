@@ -4,7 +4,7 @@ import { captureScreenshot } from "./clipboard.js";
 import { buildCsvString } from "./form.js";
 import { uuidv4, sendEmail } from "./email.js";
 
-const filePath = "/assets/files/statement.txt";
+const filePath = "../assets/files/statement.txt";
 let statementText = "";
 const sessionId = uuidv4();
 const mainEmail = "condolences.zine@gmail.com";

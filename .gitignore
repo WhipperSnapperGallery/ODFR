@@ -45,6 +45,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+./*/node_modules/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -133,8 +134,6 @@ dist
 .pnp.*
 
 ### Node Patch ###
-# Serverless Webpack directories
-.webpack/
 
 # Optional stylelint cache
 
@@ -142,6 +141,7 @@ dist
 .svelte-kit
 
 ### VisualStudioCode ###
+.vs/*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json

@@ -1,0 +1,12 @@
+{
+  "name": "odfr",
+  "version": "1.0.0",
+  "description": "ODFR Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make": "cd ./Tee-main && npm run make && cd ../b-main && npm run make"
+  },
+  "author": "",
+  "license": "ISC"
+}

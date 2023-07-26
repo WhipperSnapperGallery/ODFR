@@ -1,4 +1,4 @@
-const filePath = '/assets/vid/links.txt';
+const filePath = './assets/vid/links.txt';
 const videoIds = [];
 const videoPlayers = [];
 const token = "7d1c205e-b8d3-4b6a-883b-c6303d212304"

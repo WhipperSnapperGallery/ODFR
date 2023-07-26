@@ -54,12 +54,12 @@ canvas {
 }
 
 .cnvs-pencil {
-    cursor: url("/assets/icons/pencil-fill.svg") 0 30, pointer;
+    cursor: url("../../assets/icons/pencil-fill.svg") 0 30, pointer;
 }
 
 
 .cnvs-eraser {
-    cursor: url("/assets/icons/eraser-fill.svg") 5 30, pointer;
+    cursor: url("../../assets/icons/eraser-fill.svg") 5 30, pointer;
 }
 
 /* .icon-container {

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile:sass": "sass sass:assets/css",
-    "bundle": "npx webpack --config .webpack/webpack.config.js "
+    "make": "npm install && npm run compile:sass"
   },
   "keywords": [
     "odfr",
