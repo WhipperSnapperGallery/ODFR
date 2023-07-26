@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript" src="scripts/jquery-3.5.1.min.js"></script>
+    <style>
+        body {
+            font-family:sans-serif;
+            background-color:white;
+            font-size:18px;
+        }
+        #wrapper {
+            width:75%;
+            height:auto;
+            margin:auto;
+            padding:2em;
+            /* border:1px solid black; */
+            position:relative;
+            top:8em;
+        }
+        a.trigger:link {
+            font-size:3em;
+            color:black;
+            text-decoration:none;
+        }
+        a.trigger:hover {
+            text-decoration:underline;
+        }
+        #window1, #window2 {
+            background-color:white;
+            color:black;
+        }
+        #illustration {
+            width:400px;
+            height:auto;
+            /* box-shadow:5px 5px 10px #29088A; */
+            display:block;
+            margin:1em auto;
+        }
+        .modal {
+            font-family: "Avenir", Helvetica, sans-serif;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="modal.css" />
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <a href="#window1" class="trigger" rel="modal:open"><img src="Post17.png" width="300px"></a>
+            <a href="#window2" class="trigger" rel="modal:open">
+            <!-- What do they look like? -->
+        </a>
+
+
+        <a href="#window3" class="trigger" rel="modal:open"><img src="Post17.png" width="300px"></a>
+
+        
+            <div id="window1" class="modal">
+                <img src="Back.png" width="100%">
+                <img src="Post17post.png" width="100%">
+                <img src="like.png" width="100%">
+                <h2>UUGH</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+
+            <div id="window2" class="modal">
+                <p>An illustration of a common speces of terrapin from the archives of the British Museum:</p>
+                <img src="terrapin-watercolour.jpg" id="illustration" alt="watercolor painting of an aerial view of a terrapin"/>
+            </div>
+
+            <div id="window3" class="modal">
+                <img src="Back.png" width="100%">
+                <img src="Post17post.png" width="100%">
+                <img src="like.png" width="100%">
+                <h2>UUGH</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </body>
+    </html>
