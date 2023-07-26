@@ -245,4 +245,9 @@
         border-top: 3px solid white;
         border-radius: 0px;
     }
+
+    .custom-modal {
+        width: 90vw;
+        left: 20px;
+    }
 }

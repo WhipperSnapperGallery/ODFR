@@ -18,7 +18,7 @@ const q12 = new Question ("The Internet's changed so much. Does it feel differen
 const q13 = new Question("Intereting. Yeah, I get into the social medias a bunch, but lately I've been trying to surf the net like its 1999, u know?", QType.MULTIPLE_CHOICE, [])
 const q14 = new Question("OK cool!", QType.NO_ANSWER, []);
 const q15 = new Question("That's cool.", QType.NO_ANSWER, []);
-const q16 = new Question("I have something for you!! Click on the magic wand!", QType.MULTIPLE_CHOICE, []);
+const q16 = new Question("I have something for you!! Click on the gift!", QType.MULTIPLE_CHOICE, []);
 const q17 = new Question("Anywayy. Thanks for hanging out today!!", QType.NO_ANSWER, []);
 // const q18 = new Question("Enter the text of the question", QType.MULTIPLE_CHOICE, ["Make this empty"]);
 

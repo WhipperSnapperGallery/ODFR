@@ -4,8 +4,10 @@ import { captureScreenshot } from "./clipboard.js";
 import { buildCsvString } from "./form.js";
 import { uuidv4, sendEmail } from "./email.js";
 
-const filePath = "../assets/files/statement.txt";
+const statementPath = "../assets/files/statement.txt";
+const creditsPath = "../assets/files/credits.txt";
 let statementText = "";
+let creditsText = "";
 const sessionId = uuidv4();
 const mainEmail = "condolences.zine@gmail.com";
 const token = "445f38b4-4b07-4fee-b259-1f14d5d2ee24";
@@ -16,7 +18,18 @@ function getStatement(sourceDict) {
     statementText = xhr.responseText;
     sourceDict["Artist Statement"]['source'] = `<span class="fs-6 text-light">${statementText}</span>`;
   };
-  xhr.open('GET', filePath, true);
+  xhr.open('GET', statementPath, true);
+  xhr.responseType = 'text';
+  xhr.send();
+}
+
+function getCredits(sourceDict) {
+  const xhr = new XMLHttpRequest();
+  xhr.onload = () => {
+    creditsText = xhr.responseText;
+    sourceDict["Credits"]['source'] = `<span class="fs-6 text-light">${creditsText}</span>`;
+  };
+  xhr.open('GET', creditsPath, true);
   xhr.responseType = 'text';
   xhr.send();
 }
@@ -42,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   ]
 
   getStatement(iframeSources);
+  getCredits(iframeSources);
 
   function getGame() {
     window.open("https://flowerfeast-tee.glitch.me/", "_blank");
