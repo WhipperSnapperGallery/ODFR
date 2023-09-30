@@ -449,7 +449,7 @@ filter: invert(1);
     max-width: 250px;
     height: auto;
     width: 50%;
-    margin-left: 10%;
+    margin-left: 5%;
     display: inline-block;
     text-align: justify;
     /* padding: 0px 11px; */
@@ -694,9 +694,9 @@ button:disabled{color:#ccc;cursor:not-allowed;pointer-events:none;}
   } */
 
 .modal > img {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
     
 .modal-spinner
@@ -754,8 +754,7 @@ button:disabled{color:#ccc;cursor:not-allowed;pointer-events:none;}
     letter-spacing: -.02rem;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    margin-left: 5%;
-    margin-right: 10%;
+    margin-right: 5%;
     }
     .profile-img{
       /* min-width: 100px;
@@ -763,7 +762,7 @@ button:disabled{color:#ccc;cursor:not-allowed;pointer-events:none;}
     display: flex;
     justify-content: center;
     min-width: 10vw;
-    margin-left: 20px;
+    margin-left: 10px;
 
     }
     .profile-img img{
