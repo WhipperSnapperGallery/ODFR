@@ -829,8 +829,8 @@ button:disabled{color:#ccc;cursor:not-allowed;pointer-events:none;}
         }
       
       .profile-img img {
-        width: 50%;
-        height: auto;
+        width: 30px;
+        height: 30px;
         margin-left: 0;
       }
 
