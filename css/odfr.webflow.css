@@ -451,7 +451,7 @@ a:hover {
   height: 100vh;
   text-align: center;
   background-color: rgba(15, 15, 15, .3);
-  display: none;
+  display: block;
   position: fixed;
 }
 
@@ -485,15 +485,22 @@ a:hover {
 }
 
 .dontallow {
+  width: 50%;
+  float: left;
   color: var(--black);
   border: 1px rgba(0, 0, 0, .5);
   border-top: 1px solid rgba(0, 0, 0, .25);
-  padding: 20px 40px;
+  padding: 20px;
   display: block;
 }
 
 .dontallow:hover {
   border-bottom-style: none;
+}
+
+.dontallow.left {
+  border-right-style: solid;
+  border-right-color: rgba(0, 0, 0, .2);
 }
 
 .credits-sub {
@@ -707,6 +714,11 @@ a:hover {
 
   .dontallow {
     padding: 10px 20px;
+  }
+
+  .dontallow.left {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
